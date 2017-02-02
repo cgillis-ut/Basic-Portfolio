@@ -1,3 +1,75 @@
 body{
-	background-image: url(https://github.com/christinegillis/Basic-Portfolio/blob/master/assets/images/seigaiha.png);
+	background-image: url("https://github.com/christinegillis/Basic-Portfolio/blob/master/assets/images/seigaiha.png?raw=true");
+	padding: 0 10%;
+}
+
+header{	
+	display: inline-block;
+	background: white;
+	padding: 8% 0;
+}
+
+nav{
+	float: right;
+	display: inline-block;
+}
+
+.Portfolio-Name{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	background: #4aaaa5;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.main{
+	background: white;
+	border-color: #cccccc;
+	border-width: 1px;
+	width: 650px;
+	margin: 50px 0;
+	padding: 10px 30px;
+	border-style: solid;
+	float: left;
+}
+
+.text{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 30px;
+	padding-top: 15px;
+	font-size: 18px;
+
+
+}
+
+.My-Photo{
+	float: left;
+	display: inline-block;
+	padding: 20px 20px 0px 0px;
+	overflow: auto;
+}
+
+.title-blue-bolder{
+	color: #4aaaa5; 
+	font-weight: bolder;
+	font-size: 200%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 20px 0;
+	margin: 0;
+}
+
+.gray-line{
+	border-top: 2px solid #cccccc;
+}
+
+#Connect-Section{
+	background: white;
+	width: 250px;
+	overflow: auto;
+	border-width: 1px;
+	border-color: #cccccc;
+	margin: 50px 150px;
+	padding: 10px 30px;
+	border-style: solid;
 }

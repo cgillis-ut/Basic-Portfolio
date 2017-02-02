@@ -3,36 +3,45 @@
 <head>
 <title>Christine's Portfolio</title>
 
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
-<nav>
-	<h1 id="Portfolio-Name">Christine Gillis</h1>
-	<h3 id="links">
-		<a href="#">About</a>
-		<a href="#">Portfolio</a>
-		<a href="#">Contact</a>
-	</h3>
-</nav>
+
+	<header>
+		<div class="Portfolio-Name">
+			<h1>Christine Gillis</h1>
+		</div>
+	<nav>
+		<h3 id="links">
+			<span class="nav_link"><a href="#">About</a></span>
+			<span class="nav_link"><a href="#">Portfolio</a></span>
+			<span class="nav_link"><a href="#">Contact</a></span>
+		</h3>
+	</nav>
+	</header>
 
 <section id="About">
 	<div class="main">
-	<h1 class="title-blue-bolder">About Me</h1>
-		<div class="gray-line"></div>
-			<p class="text">Sample ABOUT ME text...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus volutpat odio nulla, ac lobortis neque pretium nec. Phasellus lobortis, metus sed porta dictum, libero turpis convallis nisi, sed volutpat risus dui eget libero. Praesent sed blandit magna. Integer molestie lorem felis, sit amet maximus libero euismod sit amet. Maecenas eu tincidunt nibh. Sed ut pharetra nibh, at luctus nisl. In ornare, ipsum vitae condimentum condimentum, lorem dui egestas lectus, vulputate finibus nunc elit at sapien. Suspendisse sapien elit, vestibulum in turpis quis, dignissim tristique leo. In hac habitasse platea dictumst. Aliquam condimentum odio id est laoreet sollicitudin. Sed arcu felis, iaculis non commodo ac, volutpat sit amet ligula. Nunc fermentum nibh eget nibh pretium iaculis.
+		<h1 class="title-blue-bolder">About Me</h1>
+		<hr class="gray-line"></hr>
+		<div class="My-Photo"><img src="https://github.com/christinegillis/Basic-Portfolio/blob/master/assets/images/me.png?raw=true" alt="C Gilli Photo" style="width:200px;height:190px;"></div>
+			<p class="text">Hi there! My name is Christine, and I'm so excited to be learning web development!
+			I'm currently a stay at home mom to a bubbly two year old. <br> When I'm not learning new things about coding, you can find me designing something *amazing* in Photoshop ;) or trying fun recipes in my kitchen! Thanks for stopping by!
 			</p>
 	</div>
 </section>
 
 <section id="Connect-Section">
-	<h2 class="Connect">Connect with Me</h2>
-	<div class="thinner-gray-line"></div>
-	<a href="#">GITHUB</a>
-	<a href="#">LINKEDIN</a>
-	<a href="#">STACKOVERFLOW</a>
+	<div class="social">
+		<h2 class="Connect">Connect with Me</h2>
+		<div class="thinner-gray-line"></div>
+	<span class="nav_link"><a href="#">GITHUB</a></span>
+	<span class="nav_link"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2046/32/linked_in_online_social_media-2-128.png"><a href="#">LINKEDIN</a></span>
+	<span class="nav_link"><a href="#">STACKOVERFLOW</a></span>
+	</div>
 </section>
 
 <footer>
