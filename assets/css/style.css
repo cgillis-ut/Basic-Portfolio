@@ -101,15 +101,15 @@ a{
 	font-size: 80%;
 	float: left;
 	padding: 10px 10px;
-
 }
 
+ul{
+	float: left;
+	display: inline;
+}
 .nav-link{
 	float: left;
 	display: inline;
-	  text-align: center;
-
-
 }
 
 .nav-link li {
@@ -135,8 +135,7 @@ footer{
 }
 
 #Portfolio{
-	display: block;
-	width: 30%;
+
 }
 
 #Arial-gray{
@@ -146,13 +145,30 @@ footer{
 
 }
 
-#Contact{
-	background: white;
-}
 #form-text{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 12px;
 	color: #777777;		
 	font-size: 18px;
+	line-height: 20px;
 
 }
+
+input{
+	color: #cccccc;
+}
+
+#Submit{
+	color: white;
+	background: #4aaaa5;
+	padding: 15px;
+	font-size: 16px;
+	border: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.port-images{
+	width: 280px;
+	margin: 20px;
+}
+
