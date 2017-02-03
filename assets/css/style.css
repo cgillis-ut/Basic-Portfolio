@@ -100,13 +100,9 @@ a{
 	border-style: solid;
 	font-size: 80%;
 	float: left;
-	padding: 10px 10px;
+	padding: 10px 30px;
 }
 
-ul{
-	float: left;
-	display: inline;
-}
 .nav-link{
 	float: left;
 	display: inline;
@@ -124,18 +120,14 @@ footer{
 	border-top: 10px solid #4aaaa5;
 	width: 100%;
 	height: 75px;
-	   position:fixed;
-	   left: 0;
-	   bottom: 0;
+	position:fixed;
+	left: 0;
+	bottom: 0;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 12px;
 	text-align: center;
 	padding-top: 40px;
 	color: white;
-}
-
-#Portfolio{
-
 }
 
 #Arial-gray{
@@ -172,3 +164,8 @@ input{
 	margin: 20px;
 }
 
+img{
+	margin: 20px 0;
+
+
+}
