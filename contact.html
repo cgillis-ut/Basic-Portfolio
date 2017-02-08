@@ -1,65 +1,54 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 <head>
-<title>Christine's Portfolio</title>
-
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
-
 <body>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Christine Gillis</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div id="main-container" class="container">
 
-	<header>
-		<div class="Portfolio-Name">
-			<h1>Christine Gillis</h1>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-	</nav>
-	</header>
+  
+	 <section class="main-section">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+    </section>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-<div class="Content">
-	<section id="Contact">
-		<div id="Main-Section">
-		<h1 class="title-blue-bolder">Contact</h1>
-		<hr class="gray-line"></hr>
-					<form id="form-text">
-  					Name<br>
-  					<input type="text" name="firstname" value="John Smith"><br><br>
-  					Email<br>
-  					<input type="text" name="lastname" value="example@gmail.com">
-  					<br><br>
-  					Message<br>
-  					<textarea name="textarea" rows="10" cols="50"></textarea>
-  					<br><br>
-  					<input type="submit" value="Submit" id="Submit">
-					</form>
-		</div>
-
-	</section>
-	<section id="Connect-Section">
-		<h1 class="title-blue-bolder">Connect with Me</h1>
-		<div class="gray-line"></div>
-	
-	<div class="nav_link">
-		<a href="https://gitlab.com/christinegillis target="_blank">
-			<img src="https://github.com/christinegillis/Basic-Portfolio/blob/master/assets/images/1486076998_github.png?raw=true" style="width:70px; height:70px;">
-		</a>
-		<a href="www.linkedin.com/in/christine-gillis-3b312a134 target="_blank">
-			<img src="https://raw.githubusercontent.com/christinegillis/Basic-Portfolio/607ae8e579c10f7dcd9006b0419ecb210d8f4ad7/assets/images/1486076993_linkedin.png" style="width:70px; height:70px;">
-		</a>
-		
-		<a href="http://stackoverflow.com/users/7400235/cgillis-dev target"_blank">
-			<img src="https://raw.githubusercontent.com/christinegillis/Basic-Portfolio/f188f5431daf05d68e4d115a5abd6c55686b15b5/assets/images/1486077366_stackoverflow.png" style="width:70px; height:70px;">
-		</a>
-	
-	</div>
-</section>
+        <a href="www.linkedin.com/in/christine-gillis-3b312a134"><img src="https://github.com/christinegillis/Basic-Portfolio/blob/master/assets/images/1486076998_github.png?raw=true" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="https://github.com/christinegillis/Basic-Portfolio/blob/master/assets/images/1486076993_linkedin.png?raw=true" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="https://github.com/christinegillis/Basic-Portfolio/blob/master/assets/images/1486077366_stackoverflow.png?raw=true" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
 
 </div>
 
